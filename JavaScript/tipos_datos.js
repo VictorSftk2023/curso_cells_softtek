@@ -36,10 +36,7 @@ if(nombre == "JavaScript"){
 console.log(`La cuarta letra de ${nombre} es: ${nombre[3]}`)
 
 console.warn("valores de tipos de datos----")
-// tipos =[
-//     Boolean(""),
-//     Boo
-// ]
+
 let usrLogon = true;
 let profile = null;
 if(Boolean(profile) == false){//evaluando con boolean para sus mismos valores

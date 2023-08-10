@@ -15,8 +15,8 @@ console.warn("Tipos de valores---------");
 let var1; //undefined
 let var2 = ""; //String
 console.info(var1 +" \"Tiene valor\": "+ typeof(var1));
-console.info(var2 + typeof(var2));
 
+console.info(var2 + typeof(var2));
 
 
 console.error("Aqui termina el primer script.")
