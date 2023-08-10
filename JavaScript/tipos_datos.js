@@ -1,4 +1,4 @@
-console.warn("Ejecutando el segundo script en <head>");
+console.warn("Ejecutando el segundo script -> <head>");
 arr = [
     primero = "cadena",
     segundo = true,
@@ -48,7 +48,7 @@ if(Boolean(profile) == false){//evaluando con boolean para sus mismos valores
     console.log("Informacion completa! :)")
 }
 
-console.warn("Objetos")
+console.warn("Objetos ---------")/////////////////////// OBJETOS
 let vic={
     nombre: "Victor Manuel",
     "apellido paterno": "Vazquez",
@@ -56,7 +56,7 @@ let vic={
     edad: 25,
     sexo: "Hombre",
     profesion: "Desarrollador Web",
-    hobbies: ["Juegos", "Videojuegos", "Cine", "Cocina", "Cine"],
+    hobbies: ["Juegos", "Videojuegos", "Cine", "Cocina"],
     contactos: {
         facebook: "Victor",
         whatsApp: 722123456,
@@ -66,3 +66,4 @@ console.log(vic.edad);
 console.log(vic["contactos"]["facebook"]);
 
 
+console.error("Aqui termina el segundo script")
