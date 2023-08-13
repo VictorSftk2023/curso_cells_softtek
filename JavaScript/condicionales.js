@@ -18,5 +18,14 @@ console.info(var1 +" \"Tiene valor\": "+ typeof(var1));
 
 console.info(var2 + typeof(var2));
 
-
 console.error("Aqui termina el primer script.")
+
+let a = 20, b = 100;
+function dividir(a,b) {
+    if(b == 0){
+        throw "Division entre cero"
+    }
+    return a/b;
+}
+console.log(dividir(a,b))
+console.log(dividir(80,4))
