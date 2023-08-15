@@ -16,6 +16,8 @@ if (error) {
     evaluando un valor que se cumple (o sea ture).
     Y al declarar ese true como false, ejecuta el "else" al no cumplir con "if"*/
 
-
+console.warn("Valores de tipo number");
+let myNum = [0]
+console.log(Boolean(myNum));
 
 

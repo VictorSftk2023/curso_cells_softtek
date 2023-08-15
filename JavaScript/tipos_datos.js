@@ -1,18 +1,4 @@
 console.warn("Ejecutando el segundo script -> <head>");
-arr = [
-    primero = "cadena",
-    segundo = true,
-    tercero = 1234,
-    cuarto = 1.34,
-    quinto = "",
-    sexto = null
-]
-numeros = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
-
-for(let i = 0; i < arr.length; i++){
-    console.log(typeof(arr[i]));
-}
-console.info(`El cuarto elemento es ${arr[3]} y es: `+ typeof(arr[3]))
 
 console.warn("Rangos----")
 console.log("Valor maximo: "+ Number.MAX_VALUE)
@@ -45,22 +31,24 @@ if(Boolean(profile) == false){//evaluando con boolean para sus mismos valores
     console.log("Informacion completa! :)")
 }
 
-console.warn("Objetos ---------")/////////////////////// OBJETOS
-let vic={
-    nombre: "Victor Manuel",
-    "apellido paterno": "Vazquez",
-    "apellido materno": "Gonzalez",
-    edad: 25,
-    sexo: "Hombre",
-    profesion: "Desarrollador Web",
-    hobbies: ["Juegos", "Videojuegos", "Cine", "Cocina"],
-    contactos: {
-        facebook: "Victor",
-        whatsApp: 722123456,
-    }
-}
-console.log(vic.edad);
-console.log(vic["contactos"]["facebook"]);
-
-
 console.error("Aqui termina el segundo script")
+
+let myname_is = "Victor";
+console.log(typeof(myname_is)); //string
+
+console.warn("Valores de tipo NULL");
+let obj = null;
+console.log(typeof(obj)); //object (a esa solución considerada como un bug de js)
+console.log(null == undefined); //true
+
+console.warn("Valores de tipo NUMBER");
+let myNum = [0]
+console.log(Boolean(myNum)); //Transformación a boolean
+
+let num_int = 120,
+    num_float = 12.123,
+    num_float2 = 0.045;
+console.log(typeof(num_int),(num_float),(num_float2));
+
+
+
