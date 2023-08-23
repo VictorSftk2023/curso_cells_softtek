@@ -35,3 +35,13 @@ let value1 = 2,
     value2 = "string",
     value3 = {};
 console.log(value1 || value2 || value3);
+
+//Operadores de Asignacion logica
+console.warn("Asignacion logica de oerador ||=")
+let title; //tiene valor undefined
+    title||= "untitled";
+console.log(title);
+
+console.warn("Asignacion logica del operador &&=");
+
+

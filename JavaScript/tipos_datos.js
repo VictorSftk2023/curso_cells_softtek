@@ -50,5 +50,9 @@ let num_int = 120,
     num_float2 = 0.045;
 console.log(typeof(num_int),(num_float),(num_float2));
 
+//Rangos de valores numericos
+console.log(Number.MAX_VALUE);
+console.log(Number.MIN_VALUE);
+
 
 
